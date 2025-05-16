@@ -1,0 +1,53 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 2em;
+}
+
+/* Header styling */
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 1.5em 1em;
+  text-align: center;
+  margin-bottom: 2em;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+/* Section and content styling */
+section {
+  background: #fff;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 2em;
+}
+
+p {
+  margin-bottom: 1em;
+  font-size: 1.1rem;
+}
+
+/* Button styling */
+button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 0.6em 1.2em;
+  margin: 0.5em 0.5em 0 0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background
